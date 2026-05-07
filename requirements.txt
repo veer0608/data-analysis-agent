@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+openpyxl
+xlrd
+sqlalchemy
+python-dotenv
+fpdf2
+streamlit
+requests
+scipy
+aiofiles
