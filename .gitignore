@@ -1,0 +1,36 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenvs
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime state — created on first run, never committed.
+# uploads/ holds whatever dataset a user dropped in; analysis.db is that
+# machine's own upload and analysis history. Neither belongs to the repo.
+backend/uploads/
+backend/analysis.db
+*.db
+*.sqlite
+*.sqlite3
+
+# Tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
